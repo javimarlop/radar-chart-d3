@@ -10,7 +10,7 @@ names(hri3)<-c('className','axis','value')
 by(hri3[-1],hri3$className,function(x )toJSONarray(x))->data
 
 export_max_json<-function(){
-for(i in length(data)){
+for (i in 1:length(data)){
 sink(paste('data_max_',names(data[i]),sep=''))
 cat("var data = [",fill=TRUE)
 cat("{",fill=TRUE)
