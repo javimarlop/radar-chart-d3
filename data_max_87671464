@@ -1,0 +1,13 @@
+var data = [
+{
+className: '87671464',
+axes: [,
+[ { "axis" : "treepamax", "value" : 99 },
+{ "axis" : "eprpamax", "value" : 1.17 },
+{ "axis" : "prepamax", "value" : 2647.24 },
+{ "axis" : "biopamax", "value" : 26.91 },
+{ "axis" : "slopepamax", "value" : 36.73 },
+{ "axis" : "ndwipamax", "value" : 220 },
+{ "axis" : "ndvimaxpamax", "value" : 255 },
+{ "axis" : "ndviminpamax", "value" : 255 },
+{ "axis" : "hpamax", "value" : 96 } ]
