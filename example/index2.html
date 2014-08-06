@@ -20,11 +20,11 @@ body {
 .radar-chart.focus .area.focused {
   fill-opacity: 0.9;
 }
-.area.314648, .314648 .circle {
+.area.80683972, .80683972 .circle {
   fill: #FFD700;
   stroke: none;
 }
-.area.6153388, .6153388 .circle {
+.area.80685451, .80685451 .circle {
   fill: #ADD8E6;
   stroke: none;
 }
@@ -43,31 +43,29 @@ RadarChart.defaultConfig.radius = 3;
 
 <script>
 var data = [
-  {
-    className: '314648', // optional can be used for styling
-    axes: [ { "axis" : "treepamax", "value" : 86 },
-{ "axis" : "eprpamax", "value" : 0.46 },
-{ "axis" : "prepamax", "value" : 2902.93 },
-{ "axis" : "biopamax", "value" : 22.07 },
-{ "axis" : "slopepamax", "value" : 23.07 },
-{ "axis" : "ndwipamax", "value" : 197 },
-{ "axis" : "ndvimaxpamax", "value" : 250 },
-{ "axis" : "ndviminpamax", "value" : 207 },
-{ "axis" : "hpamax", "value" : 96 } ]
-  },
-  {
-    className: '6153388',
-    axes: [ { "axis" : "treepamax", "value" : 92 },
-{ "axis" : "eprpamax", "value" : 0.35 },
-{ "axis" : "prepamax", "value" : 4730.23 },
-{ "axis" : "biopamax", "value" : 22.95 },
-{ "axis" : "slopepamax", "value" : 33.85 },
-{ "axis" : "ndwipamax", "value" : 188 },
-{ "axis" : "ndvimaxpamax", "value" : 255 },
-{ "axis" : "ndviminpamax", "value" : 255 },
-{ "axis" : "hpamax", "value" : 52 } ]
-  }
-];
+{
+className: '80683972',
+axes: [
+{ "axis" : "treepamax", "value" : 4.59511985013459 },
+{ "axis" : "eprpamax", "value" : 0.371563556432483 },
+{ "axis" : "prepamax", "value" : 8.17831325861942 },
+{ "axis" : "biopamax", "value" : 3.24298290021143 },
+{ "axis" : "slopepamax", "value" : 3.5313480661272 },
+{ "axis" : "ndwipamax", "value" : 5.31811999384422 },
+{ "axis" : "ndvimaxpamax", "value" : 5.52545293913178 },
+{ "axis" : "ndviminpamax", "value" : 5.38449506278909 },
+{ "axis" : "hpamax", "value" : 4.4188406077966 }]},{
+className: '80685451',
+axes: [
+{ "axis" : "treepamax", "value" : 4.51085950651685 },
+{ "axis" : "eprpamax", "value" : 0.314810739840034 },
+{ "axis" : "prepamax", "value" : 8.19825709397777 },
+{ "axis" : "biopamax", "value" : 3.1389664416399 },
+{ "axis" : "slopepamax", "value" : 3.56671182013973 },
+{ "axis" : "ndwipamax", "value" : 5.29330482472449 },
+{ "axis" : "ndvimaxpamax", "value" : 5.52545293913178 },
+{ "axis" : "ndviminpamax", "value" : 4.95582705760126 },
+{ "axis" : "hpamax", "value" : 4.43081679884331 }]}];
 function randomDataset() {
   return data.map(function(d) {
     return {

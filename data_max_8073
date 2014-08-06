@@ -1,0 +1,24 @@
+var data = [
+{
+className: '80731062',
+axes: [
+{ "axis" : "treepamax", "value" : 4.61512051684126 },
+{ "axis" : "eprpamax", "value" : 0.56531380905006 },
+{ "axis" : "prepamax", "value" : 8.35385274809778 },
+{ "axis" : "biopamax", "value" : 3.29620716780452 },
+{ "axis" : "slopepamax", "value" : 3.54932998916385 },
+{ "axis" : "ndwipamax", "value" : 5.33753807970132 },
+{ "axis" : "ndvimaxpamax", "value" : 5.52545293913178 },
+{ "axis" : "ndviminpamax", "value" : 5.37989735354046 },
+{ "axis" : "hpamax", "value" : 4.53259949315326 }]},{
+className: '80738784',
+axes: [
+{ "axis" : "treepamax", "value" : 4.60517018598809 },
+{ "axis" : "eprpamax", "value" : 0.512823626428664 },
+{ "axis" : "prepamax", "value" : 8.62487381354436 },
+{ "axis" : "biopamax", "value" : 3.24921102466427 },
+{ "axis" : "slopepamax", "value" : 4.01494053943483 },
+{ "axis" : "ndwipamax", "value" : 5.37527840768417 },
+{ "axis" : "ndvimaxpamax", "value" : 5.54517744447956 },
+{ "axis" : "ndviminpamax", "value" : 5.54517744447956 },
+{ "axis" : "hpamax", "value" : 4.60517018598809 }]}];

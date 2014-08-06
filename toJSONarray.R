@@ -15,8 +15,8 @@ objs <- apply(sapply(clnms, name.value), 1, function(x){paste(x, collapse=', ')}
 objs <- paste('{', objs, '}')
 
 # res <- paste('[', paste(objs, collapse=', '), ']')
-res <- paste('[', paste(objs, collapse=',\n'), ']') # added newline for formatting output
-
+#res <- paste('[', paste(objs, collapse=',\n'), ']') # added newline for formatting output
+res <- paste(objs, collapse=',\n') # Javier
 return(res)
 }
 
