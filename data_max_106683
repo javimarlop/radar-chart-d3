@@ -2,23 +2,23 @@ var data = [
 {
 className: '106683840',
 axes: [
-{ "axis" : "treepamax", "value" : 4.59511985013459 },
-{ "axis" : "eprpamax", "value" : 0.371563556432483 },
-{ "axis" : "prepamax", "value" : 8.3154735015073 },
-{ "axis" : "biopamax", "value" : 3.1896529661913 },
-{ "axis" : "slopepamax", "value" : 3.58212908416706 },
-{ "axis" : "ndwipamax", "value" : 5.31811999384422 },
-{ "axis" : "ndvimaxpamax", "value" : 5.54517744447956 },
-{ "axis" : "ndviminpamax", "value" : 5.54517744447956 },
-{ "axis" : "hpamax", "value" : 4.48863636973214 }]},{
+{ "axis" : "Tree_cover", "value" : 0.908919523977848 },
+{ "axis" : "EPR", "value" : 0.52 },
+{ "axis" : "Precipitation", "value" : 0.555145444652884 },
+{ "axis" : "Biotemperature", "value" : 0.713740458015267 },
+{ "axis" : "Slope", "value" : 0.5970715835141 },
+{ "axis" : "NDWI", "value" : 0.919056525353284 },
+{ "axis" : "NDVI_MAX", "value" : 0.972097718554412 },
+{ "axis" : "NDVI_MIN", "value" : 0.4657068480051 },
+{ "axis" : "GRASSLAND_cover", "value" : 0.396180555555556 }]},{
 className: '1066832475',
 axes: [
-{ "axis" : "treepamax", "value" : 4.58496747867057 },
-{ "axis" : "eprpamax", "value" : 0.357674444271816 },
-{ "axis" : "prepamax", "value" : 8.88487197048352 },
-{ "axis" : "biopamax", "value" : 3.30652033472025 },
-{ "axis" : "slopepamax", "value" : 3.47382807269706 },
-{ "axis" : "ndwipamax", "value" : 5.30330490805908 },
-{ "axis" : "ndvimaxpamax", "value" : 5.52545293913178 },
-{ "axis" : "ndviminpamax", "value" : 5.33753807970132 },
-{ "axis" : "hpamax", "value" : 4.51085950651685 }]}];
+{ "axis" : "Tree_cover", "value" : 0.916106987156828 },
+{ "axis" : "EPR", "value" : 0.426666666666667 },
+{ "axis" : "Precipitation", "value" : 1 },
+{ "axis" : "Biotemperature", "value" : 0.900763358778626 },
+{ "axis" : "Slope", "value" : 0.494577006507592 },
+{ "axis" : "NDWI", "value" : 0.932252701579385 },
+{ "axis" : "NDVI_MAX", "value" : 0.999071269937412 },
+{ "axis" : "NDVI_MIN", "value" : 0.551824895075174 },
+{ "axis" : "GRASSLAND_cover", "value" : 0.386284722222222 }]}];

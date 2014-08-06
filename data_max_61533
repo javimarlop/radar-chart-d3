@@ -2,12 +2,12 @@ var data = [
 {
 className: '6153388',
 axes: [
-{ "axis" : "treepamax", "value" : 4.53259949315326 },
-{ "axis" : "eprpamax", "value" : 0.300104592450338 },
-{ "axis" : "prepamax", "value" : 8.46194048996414 },
-{ "axis" : "biopamax", "value" : 3.17596832385692 },
-{ "axis" : "slopepamax", "value" : 3.55105313720653 },
-{ "axis" : "ndwipamax", "value" : 5.24174701505964 },
-{ "axis" : "ndvimaxpamax", "value" : 5.54517744447956 },
-{ "axis" : "ndviminpamax", "value" : 5.54517744447956 },
-{ "axis" : "hpamax", "value" : 3.97029191355212 }]}];
+{ "axis" : "Tree_cover", "value" : 0.925061859314245 },
+{ "axis" : "EPR", "value" : 0.413333333333333 },
+{ "axis" : "Precipitation", "value" : 0.841640004789685 },
+{ "axis" : "Biotemperature", "value" : 0.833969465648855 },
+{ "axis" : "Slope", "value" : 0.338937093275488 },
+{ "axis" : "NDWI", "value" : 0.903106816292602 },
+{ "axis" : "NDVI_MAX", "value" : 0.98417120936806 },
+{ "axis" : "NDVI_MIN", "value" : 0.520905275460872 },
+{ "axis" : "GRASSLAND_cover", "value" : 0.373263888888889 }]}];

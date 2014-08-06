@@ -2,23 +2,23 @@ var data = [
 {
 className: '80683972',
 axes: [
-{ "axis" : "treepamax", "value" : 4.59511985013459 },
-{ "axis" : "eprpamax", "value" : 0.371563556432483 },
-{ "axis" : "prepamax", "value" : 8.17831325861942 },
-{ "axis" : "biopamax", "value" : 3.24298290021143 },
-{ "axis" : "slopepamax", "value" : 3.5313480661272 },
-{ "axis" : "ndwipamax", "value" : 5.31811999384422 },
-{ "axis" : "ndvimaxpamax", "value" : 5.52545293913178 },
-{ "axis" : "ndviminpamax", "value" : 5.38449506278909 },
-{ "axis" : "hpamax", "value" : 4.4188406077966 }]},{
+{ "axis" : "Tree_cover", "value" : 0.90585601508189 },
+{ "axis" : "EPR", "value" : 0.44 },
+{ "axis" : "Precipitation", "value" : 0.713629383454161 },
+{ "axis" : "Biotemperature", "value" : 0.756488549618321 },
+{ "axis" : "Slope", "value" : 0.843275488069414 },
+{ "axis" : "NDWI", "value" : 0.929031587697423 },
+{ "axis" : "NDVI_MAX", "value" : 0.989097516656572 },
+{ "axis" : "NDVI_MIN", "value" : 0.579238166073421 },
+{ "axis" : "GRASSLAND_cover", "value" : 0.401388888888889 }]},{
 className: '80685451',
 axes: [
-{ "axis" : "treepamax", "value" : 4.51085950651685 },
-{ "axis" : "eprpamax", "value" : 0.314810739840034 },
-{ "axis" : "prepamax", "value" : 8.19825709397777 },
-{ "axis" : "biopamax", "value" : 3.1389664416399 },
-{ "axis" : "slopepamax", "value" : 3.56671182013973 },
-{ "axis" : "ndwipamax", "value" : 5.29330482472449 },
-{ "axis" : "ndvimaxpamax", "value" : 5.52545293913178 },
-{ "axis" : "ndviminpamax", "value" : 4.95582705760126 },
-{ "axis" : "hpamax", "value" : 4.43081679884331 }]}];
+{ "axis" : "Tree_cover", "value" : 0.657476139978791 },
+{ "axis" : "EPR", "value" : 0.306666666666667 },
+{ "axis" : "Precipitation", "value" : 0.726945966896558 },
+{ "axis" : "Biotemperature", "value" : 0.498473282442748 },
+{ "axis" : "Slope", "value" : 0.991865509761388 },
+{ "axis" : "NDWI", "value" : 0.9059642560266 },
+{ "axis" : "NDVI_MAX", "value" : 0.945245305875227 },
+{ "axis" : "NDVI_MIN", "value" : 0.340222068745684 },
+{ "axis" : "GRASSLAND_cover", "value" : 0.753645833333333 }]}];

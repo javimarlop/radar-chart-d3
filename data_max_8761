@@ -1,0 +1,13 @@
+var data = [
+{
+className: '8761852',
+axes: [
+{ "axis" : "Tree_cover", "value" : 1 },
+{ "axis" : "EPR", "value" : 0.721153846153846 },
+{ "axis" : "Precipitation", "value" : 0.978423337088789 },
+{ "axis" : "Biotemperature", "value" : 0.952417794970986 },
+{ "axis" : "Slope", "value" : 0.683501683501683 },
+{ "axis" : "NDWI", "value" : 0.969755536982867 },
+{ "axis" : "NDVI_MAX", "value" : 0.999680025597952 },
+{ "axis" : "NDVI_MIN", "value" : 0.92764194433098 },
+{ "axis" : "GRASSLAND_cover", "value" : 0.825559347743648 }]}];

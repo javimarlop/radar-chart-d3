@@ -2,23 +2,23 @@ var data = [
 {
 className: '80731062',
 axes: [
-{ "axis" : "treepamax", "value" : 4.61512051684126 },
-{ "axis" : "eprpamax", "value" : 0.56531380905006 },
-{ "axis" : "prepamax", "value" : 8.35385274809778 },
-{ "axis" : "biopamax", "value" : 3.29620716780452 },
-{ "axis" : "slopepamax", "value" : 3.54932998916385 },
-{ "axis" : "ndwipamax", "value" : 5.33753807970132 },
-{ "axis" : "ndvimaxpamax", "value" : 5.52545293913178 },
-{ "axis" : "ndviminpamax", "value" : 5.37989735354046 },
-{ "axis" : "hpamax", "value" : 4.53259949315326 }]},{
+{ "axis" : "Tree_cover", "value" : 0.915400023565453 },
+{ "axis" : "EPR", "value" : 0.653333333333333 },
+{ "axis" : "Precipitation", "value" : 0.606350953630392 },
+{ "axis" : "Biotemperature", "value" : 0.865648854961832 },
+{ "axis" : "Slope", "value" : 0.625813449023861 },
+{ "axis" : "NDWI", "value" : 0.931265586034913 },
+{ "axis" : "NDVI_MAX", "value" : 0.979487179487179 },
+{ "axis" : "NDVI_MIN", "value" : 0.733676884662381 },
+{ "axis" : "GRASSLAND_cover", "value" : 0.385763888888889 }]},{
 className: '80738784',
 axes: [
-{ "axis" : "treepamax", "value" : 4.60517018598809 },
-{ "axis" : "eprpamax", "value" : 0.512823626428664 },
-{ "axis" : "prepamax", "value" : 8.62487381354436 },
-{ "axis" : "biopamax", "value" : 3.24921102466427 },
-{ "axis" : "slopepamax", "value" : 4.01494053943483 },
-{ "axis" : "ndwipamax", "value" : 5.37527840768417 },
-{ "axis" : "ndvimaxpamax", "value" : 5.54517744447956 },
-{ "axis" : "ndviminpamax", "value" : 5.54517744447956 },
-{ "axis" : "hpamax", "value" : 4.60517018598809 }]}];
+{ "axis" : "Tree_cover", "value" : 0.655590903735124 },
+{ "axis" : "EPR", "value" : 0.333333333333333 },
+{ "axis" : "Precipitation", "value" : 0.862838560321665 },
+{ "axis" : "Biotemperature", "value" : 0.630152671755725 },
+{ "axis" : "Slope", "value" : 0.880151843817787 },
+{ "axis" : "NDWI", "value" : 0.958437240232751 },
+{ "axis" : "NDVI_MAX", "value" : 0.952836664647688 },
+{ "axis" : "NDVI_MIN", "value" : 0.452690856930351 },
+{ "axis" : "GRASSLAND_cover", "value" : 0.735416666666667 }]}];
