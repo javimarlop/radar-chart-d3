@@ -42,7 +42,7 @@ names(hri3)<-c('className','axis','value')
 
 by(hri3[-1],hri3$className,function(x )toJSONarray(x))->data
 
-sink(paste('data_max_',pas[j],sep=''))
+sink(paste('eco_aver_',pas[j],sep=''))
 cat("var data = [",fill=TRUE)
 for (i in 1:length(data)){
 if (i == 1){

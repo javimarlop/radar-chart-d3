@@ -5,6 +5,15 @@ A reusable radar chart implementation in D3.js. Styleable, configurable and tran
 
 ## Usage
 
+* Open R
+```
+source('export_aver_eco_segm_json.R')
+export_aver_eco_segm_json()
+```
+
+* Close R
+* Use the ouput csv files by PA as input for the radarplot layout
+
 ### Install
 `bower install git@github.com:alangrafu/radar-chart-d3.git --save`
 
