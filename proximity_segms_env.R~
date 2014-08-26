@@ -10,3 +10,4 @@ as.data.frame(apply(prox_env,2,mean))->prox_means
 plot(prox_means[,1])
 
 # we can then use mantel test with distance matrices based on averages of env vars or with proximities to assess overall fit (from vegan R library)
+mantel(prox_env,prox_bio)

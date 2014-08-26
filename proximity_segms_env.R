@@ -1,5 +1,5 @@
 # Based on variables average for each segment
-
+library(randomForest)
 hri<-read.table('hri_results.csv',sep=' ',header=T,dec='.')
 hri[c(1:2,30:38)]->means
 randomForest(means[,3:11])->rfmeans
