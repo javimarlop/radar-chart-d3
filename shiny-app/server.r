@@ -6,8 +6,8 @@ shinyServer(function(input, output) {
 #    rownames(data) = data$Year#data$NUTS_CODE
 #    print(data)
 #    data[,7:9]
-	data<-data[,-(3:29)]
-	data[data$PA %in% input$PA_filter1,]->data2
+	#data<-data[,-(3:29)]
+	data[data$wdpa_id %in% input$wdpa_id_filter1,]->data2
 	as.data.frame(t(data2[,3:11]))->data3
 	as.character(data2$wdpaid)->names(data3)
 	print(data3)

@@ -3,11 +3,11 @@ library("rCharts")
 shinyUI(pageWithSidebar(  
   headerPanel( "Habitat Explorer"), 
   sidebarPanel(
-    selectInput(inputId = "PA_filter1",
+    selectInput(inputId = "wdpa_id_filter1",
                 label = (HTML("<b>Select a WDPA ID:</b>")),
                 multiple = FALSE,
-                selected = '15',
-               choices = list("31" = "31", "61" = "61","80"="80","15"="15" )),
+                selected = '8067',
+               choices = list("8067" = "8067", "1500" = "1500","8100"="8100","8762"="8762" )),
                                              
 #    checkboxGroupInput(inputId = 'country_filter1',
 #                       label = (HTML("<b>Select the region of interest:</b>")), 
