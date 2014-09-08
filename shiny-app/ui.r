@@ -7,7 +7,7 @@ shinyUI(pageWithSidebar(
                 label = (HTML("<b>Select a WDPA ID:</b>")),
                 multiple = FALSE,
                 selected = '8067',
-               choices = list("8067" = "8067", "1500" = "1500","8100"="8100","8762"="8762" )),
+               choices = as.list(data$wdpa_id)),#list("8067" = "8067", "1500" = "1500","8100"="8100","8762"="8762" )),
                                              
 #    checkboxGroupInput(inputId = 'country_filter1',
 #                       label = (HTML("<b>Select the region of interest:</b>")), 
