@@ -14,6 +14,13 @@ export_aver_eco_segm_json()
 * Close R
 * Use the ouput csv files by PA as input for the radarplot layout
 
+## Shiny App
+
+```
+library(shiny)
+runGitHub("radar-chart-d3", "javimarlop", subdir = "shiny-app/")
+```
+
 ### Install
 `bower install git@github.com:alangrafu/radar-chart-d3.git --save`
 
