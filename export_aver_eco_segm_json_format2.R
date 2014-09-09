@@ -36,14 +36,18 @@ hri2pa<-hri2eco[index2,1:10]
 
 
 sink(paste('pa_segm_aver_',pas[j],sep=''))
+cat("Categories: {'Tree_cover','EPR','Precipitation','Biotemperature','Slope','NDWI','NDVI_MAX','NDVI_MIN','GRASSLAND_cover'}",fill=TRUE)
+cat('\n')
 for (i in 1:dim(hri2pa)[1]){
-s1<-list(list(means=as.numeric(hri2pa[j,2:10])))
-names(s1)<-hri2pa$wdpaid[1]
+s1<-list(list(means=as.numeric(hri2pa[i,2:10])))
+names(s1)<-hri2pa$wdpaid[i]
 data<-toJSON(s1)
-cat(data[i])
-cat("]}")
+cat(',')
+cat(data)
+cat('\n')
+#cat("]}")
 }
-cat("];",fill=TRUE)
+#cat("];",fill=TRUE)
 sink()
 }
 }

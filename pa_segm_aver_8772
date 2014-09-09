@@ -1,5 +1,7 @@
-{
+Categories: {'Tree_cover','EPR','Precipitation','Biotemperature','Slope','NDWI','NDVI_MAX','NDVI_MIN','GRASSLAND_cover'}
+
+,{
  "8772578": {
- "means": [ null, null, null, null, null, null, null, null, null ] 
+ "means": [ 0.95539, 0.72115, 0.96262, 0.95126,      1,      1, 0.99824, 0.53983, 0.95753 ] 
 } 
-}]}];
+}
